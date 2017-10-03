@@ -15,8 +15,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorLayout);
         Snackbar.make(coordinatorLayout, "Hola mundo snackbar", Snackbar.LENGTH_LONG).show();
-
-
-
     }
 }
